@@ -8,7 +8,7 @@ function App() {
     //   .then((response) => console.log(response))
     //   .catch((error) => console.log(error));
     axios.post(
-      'http://localhost:3030',
+      'https://nodecode.onrender.com/get-cookie',
       { email: 'password' },
       { withCredentials: true }
     );
